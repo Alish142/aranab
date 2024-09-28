@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title> Search fundraisers</title>
+        <link rel="Stylesheet" href="/frontend/css/style.css">
+    </head>
+
+    <body>
+        <header>
+    
+            <nav>
+                <img src="/frontend/src/img1.png" class=logo alt="Pariwartan logo">
+                <ul>
+                    <li><a href="/frontend/src/index.html"> Home </a></li>
+                    <li><a href="/frontend/src/search.html"> Search Fundraiser</a></li>
+                    <li><a href="/frontend/src/index.html"></a> <button type="button" class="donate-btn">Donate</button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main> 
+            <section id="search-form" class="card form-container">
+                <h2> Search Fundraisers</h2>
+                <form id="fundraisers-search-form">
+                    <div class="search-box">
+                        <input type="text" id="organizer" placeholder="Organizer">
+                        <input type="text" id="city" placeholder="City">
+                        <select id="category">
+                            <option value=""> Select Category</option>
+                        </select>
+                    
+                    </div>
+
+                    <div class="button-group">
+                        <button type="submit">Search</button>
+                        <button type="button " id="clear-btn">Clear</button>
+                        
+                    </div>
+                </form>
+            </section>
+            <div id="search-results" class="grid-container"> </div>
+        </main>
+       
+        <script src="/frontend/js/search.js"></script>
+
+
+
+
+            
+        </div>
+    </body>
+    
+    <footer>
+        <p>&copy; 2024 Pariwartan. All rights reserved.</p>
+    </footer>
+
+</html>

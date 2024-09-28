@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundraiser Details</title>
+    <link rel="stylesheet" href="/frontend/css/style.css">
+</head>
+<body>
+    <header>
+    
+        <nav>
+            <img src="/frontend/src/img1.png" alt="Pariwartan Logo" class="logo">
+            <ul>
+                <li><a href="/frontend/src/index.html">Home</a></li>
+                <li><a href="/frontend/src/search.html">Search Fundraisers</a></li>
+            </ul>
+            <button type="button" onclick="showConstructionAlert()">Donate</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="fundraiser-details" class="card details-card">
+            <img id="fundraiser-image" src="" alt="Fundraiser Image" style="width: 100%; height: auto; display: none;">
+        </section>
+         <div class="action-buttons">
+                <button id="donate-btn">Donate</button>
+                <button id="return-btn">Return</button>
+            </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Pariwartan. All rights reserved.</p>
+    </footer>
+
+    <script src="/frontend/js/fundraiser.js"></script>
+</body>
+</html>
