@@ -317,4 +317,18 @@ main{
        width: 100%;
        margin-bottom: 1rem;
    }
+} 
+
+
+* Admin Page*/
+
+body#admin .container{
+   background-color: #1e664f;
+   background: linear-gradient(to right, #e2e2e2, #1e664c);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   height: 100vh;
+
 }
